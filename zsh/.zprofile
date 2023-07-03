@@ -1,5 +1,6 @@
 # Created by `pipx` on 2022-02-10 17:15:58
 export PATH="$PATH:/home/guil/.local/bin"
+export PATH="$PATH:/home/guil/.local/scripts"
 
 export PATH=$PATH:$HOME/.elixir-ls/release
 
