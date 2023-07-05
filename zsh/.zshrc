@@ -160,3 +160,5 @@ export PATH="$PATH:/home/guil/.local/bin:/var/lib/snapd/snap/bin"
 export PATH="$PATH:/home/guil/.local/share/gem/ruby/3.0.0/bin"
 
 alias rm="rm -iv"
+
+bindkey -s ^f  "tmux-sessionizer\n"
