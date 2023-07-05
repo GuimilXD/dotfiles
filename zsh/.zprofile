@@ -7,7 +7,4 @@ export PATH="$PATH:/home/guil/.local/scripts"
 export GPG_TTY=$(tty)
 gpgconf --launch gpg-agent
 
-if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-    exec Hyperland
-fi
-
+# do not add hyprland here for gods sake, just keep using sddm for now
