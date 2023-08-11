@@ -1,12 +1,12 @@
-/* 
+/*
  * Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
 */
 
 /** ********** Fonts ********** **/
 * {
-    font-family: "JetBrains Mono", "Iosevka Nerd Font", archcraft, sans-serif;
-    font-size: 12px;
-    color: #4192CF;
+    font-family: "Iosevka Nerd Font", archcraft, sans-serif;
+    font-size: 14px;
+    color: white;
 }
 
 /** ********** Waybar Window ********** **/
@@ -26,7 +26,6 @@ window#waybar.hidden {
 /** ********** Backlight ********** **/
 #backlight {
 	background-color: #cba6f7;
-	background: white;
 }
 
 /** ********** Battery ********** **/
@@ -164,27 +163,20 @@ window#waybar.hidden {
 
 /** ********** Custom ********** **/
 #custom-menu, #custom-power, #custom-weather, #custom-updater {
-	border-radius: 4px;
 	margin: 6px 0px;
 	padding: 2px 8px;
 }
 
 #custom-menu {
-	background-color: #f5c2e7;
 	margin-left: 6px;
 	padding: 2px 6px;
 	font-size: 16px;
-	background: white;
-	border: 1px solid white;
 }
 
 #custom-power {
-	background-color: #f38ba8;
 	margin-right: 6px;
 	padding: 2px 8px;
 	font-size: 16px;
-	background: white;
-	border: 1px solid white;
 }
 
 #custom-updater {
@@ -197,16 +189,14 @@ window#waybar.hidden {
 }
 
 #custom-weather {
-	background-color: #cba6f7;
 	margin-right: 6px;
 	padding: 2px 8px;
 	font-size: 12px;
-	background: white;
-	border: 1px solid white;
+    color: white;
 }
 
 /** Common style **/
-#backlight, 
+#backlight,
 #battery,
 #clock,
 #cpu,
@@ -217,9 +207,9 @@ window#waybar.hidden {
 #tray,
 #pulseaudio,
 #network {
-	border-radius: 4px;
 	margin: 6px 0px;
+    color: white;
 	padding: 2px 8px;
-	background: white;
-	border: 1px solid white;
+    border: none;
+	background: transparent;
 }
