@@ -23,6 +23,6 @@
     "ipc": true,
 
     "modules-left": ["custom/menu", "wlr/workspaces"],
-    "modules-center": ["mpd", "tray"],
+    "modules-center": ["tray"],
     "modules-right": ["pulseaudio", "network", "custom/weather", "clock", "custom/power"],
 }

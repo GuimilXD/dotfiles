@@ -26,6 +26,3 @@ swaybg --output '*' --mode fill --image ~/.config/hypr/wallpapers/wallpaper.png 
 
 # Lauch statusbar (waybar)
 ~/.config/hypr/scripts/statusbar &
-
-# Start mpd
-exec mpd &
