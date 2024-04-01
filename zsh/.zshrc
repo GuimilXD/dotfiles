@@ -167,3 +167,23 @@ zinit light-mode for \
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+export PATH=$PATH:/home/guil/.spicetify
+
+[ -f "/home/guil/.ghcup/env" ] && . "/home/guil/.ghcup/env" # ghcup-env
+# pnpm
+export PNPM_HOME="/home/guil/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+#
+#
+if [ ! -S ~/.ssh/ssh_auth_sock ]; then
+  eval `ssh-agent`
+  ln -sf "$SSH_AUTH_SOCK" ~/.ssh/ssh_auth_sock
+fi
+export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
+ssh-add -l > /dev/null || ssh-add
+eval "$(direnv hook zsh)"

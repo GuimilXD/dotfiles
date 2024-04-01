@@ -16,7 +16,9 @@ done
 /usr/lib/xfce-polkit/xfce-polkit &
 
 # Set wallpaper
-swaybg --output '*' --mode fill --image ~/.config/hypr/wallpapers/pulp-fiction.jpg &
+swaybg --output '*' --mode fill --image ~/.config/hypr/wallpapers/over-the-garden-wall.png &
+
+stretchly &
 
 stretchly &
 
