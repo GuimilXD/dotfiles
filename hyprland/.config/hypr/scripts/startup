@@ -18,6 +18,8 @@ done
 # Set wallpaper
 swaybg --output '*' --mode fill --image ~/.config/hypr/wallpapers/pulp-fiction.jpg &
 
+stretchly &
+
 # Apply themes
 ~/.config/hypr/scripts/gtkthemes &
 
