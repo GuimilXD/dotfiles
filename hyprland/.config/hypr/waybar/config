@@ -10,7 +10,7 @@
     "exclusive": true,
     "passthrough": false,
     "position": "top",
-    "output": "DP-1",
+    "output": "eDP-1",
     "height": 32,
     "width": "",
     "spacing": 6,
@@ -24,5 +24,5 @@
 
     "modules-left": ["custom/menu", "wlr/workspaces"],
     "modules-center": ["tray"],
-    "modules-right": ["pulseaudio", "network", "custom/weather", "clock", "custom/power"],
+    "modules-right": ["pulseaudio", "network", "custom/weather", "battery", "backlight", "clock", "custom/power"],
 }

@@ -186,4 +186,10 @@ if [ ! -S ~/.ssh/ssh_auth_sock ]; then
 fi
 export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
 ssh-add -l > /dev/null || ssh-add
+
+export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
+
+GTK_THEME=Adwaita:dark
+
 eval "$(direnv hook zsh)"
+eval "$(/home/guil/.local/bin/mise activate zsh)"
